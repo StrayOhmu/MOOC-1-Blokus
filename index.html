@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blokus Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Blokus</h1>
+    </header>
+    <h2>Blokus Game</h2>
+    <div id="game-container">
+        <div id="game-board"></div>
+        <div id="pieces-container"></div>
+    </div>
+    <div id="current-player">Current Player: Blue</div>
+    <div id="selected-piece-container">
+        <div id="selected-piece"></div>
+        <button id="rotate-piece">Rotate</button>
+        <button id="deselect-piece">Deselect</button>
+    </div>
+    <div id="corners">
+        <div class="corner" id="corner-blue">Blue: Top Left</div>
+        <div class="corner" id="corner-red">Red: Top Right</div>
+        <div class="corner" id="corner-green">Green: Bottom Left</div>
+        <div class="corner" id="corner-yellow">Yellow: Bottom Right</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
